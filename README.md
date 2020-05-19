@@ -3,13 +3,13 @@
  
  1. Config environment.
  
- conda create --name python3.7 python=3.7
+   conda create --name python3.7 python=3.7
  
- source ${HOME}/.bashrc
+   source ${HOME}/.bashrc
  
- conda activate python3.7
+   conda activate python3.7
  
- pip install -r requirements.txt
+   pip install -r requirements.txt
  
  2. Prepare data. "./dataset" constains some demo data files.
  
@@ -17,9 +17,9 @@
  
  4. Do training or inference: 
  
- ./run.sh model_name train/test slurm_node data_path dataset_name
+   ./run.sh model_name train/test slurm_node data_path dataset_name
  
  5. Do evaluation:
  
- ./evaluate.sh model_name data_path
+   ./evaluate.sh model_name data_path
  
