@@ -9,7 +9,6 @@ from CaSE.Model import *
 from Utils import *
 from transformers.optimization import *
 
-base_output_path = './output/CaSE-1.0/'
 dir_path = os.path.dirname(os.path.realpath(__file__))
 embedding_size = 256
 hidden_size=256
