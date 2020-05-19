@@ -4,8 +4,11 @@
  1. Config environment.
  
  conda create --name python3.7 python=3.7
+ 
  source ${HOME}/.bashrc
+ 
  conda activate python3.7
+ 
  pip install -r requirements.txt
  
  2. Prepare data. "./dataset" constains some demo data files.
