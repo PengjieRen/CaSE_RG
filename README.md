@@ -9,10 +9,12 @@
  
 ## 2. Prepare data. "./dataset" constains some demo data files.
 + .split
-``#query_id	#split
+```
+#query_id	#split
 71_1	train
 36_4	train
-25_8	test``
+25_8	test
+```
  
 ## 3. Run Prepare_dataset.py to process the data.
  
