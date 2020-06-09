@@ -231,7 +231,7 @@ if __name__ == '__main__':
 
         torch.save(query, base_data_path + dataset+'/' +dataset+ '.query.pkl')
         torch.save(passage, base_data_path + dataset+'/' +dataset+ '.passage.pkl')
-        torch.save(reformulated_query, base_data_path + dataset+'/' +dataset+ '.reformulated_query.pkl')
+        torch.save(reformulated_query, base_data_path + dataset+'/' +dataset+ '.reformulation.query.pkl')
         torch.save(train_samples, base_data_path + dataset+'/' +dataset+ '.train.pkl')
         torch.save(dev_samples, base_data_path + dataset+'/' +dataset+ '.dev.pkl')
         torch.save(test_samples, base_data_path + dataset+'/' +dataset+ '.test.pkl')

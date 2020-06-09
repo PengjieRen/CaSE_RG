@@ -18,7 +18,7 @@ def train(args):
 
     train_samples = torch.load(os.path.join(data_path, args.dataset+ '.train.pkl'))
     train_size=len(train_samples)
-    train_dataset = CaSEDataset(train_samples, None, None, None, None, None, None, None, None, None, None, sample_tensor=torch.load(os.path.join(data_path,  args.dataset+ '.CaSE.dataset.pkl')))
+    train_dataset = CaSEDataset(train_samples, None, None, None, None, None, None, None, None, None, None, sample_tensor=torch.load(os.path.join(data_path,  args.dataset+ '.train.CaSE.dataset.pkl')))
 
     model = CaSE(args.max_span_size, args.max_target_length, id2vocab, vocab2id, args.hidden_size)
     init_params(model)

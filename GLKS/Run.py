@@ -18,7 +18,7 @@ def train(args):
     data_path = os.path.join(args.data_path, args.dataset + '/')
     train_samples = torch.load(data_path + '.pkl')
     train_size = len(train_samples)
-    train_dataset = GLKSDataset(train_samples, None, None, None, None, None,None, None, None, sample_tensor=torch.load(os.path.join(data_path,  args.dataset+ '.GLKS.dataset.pkl')))
+    train_dataset = GLKSDataset(train_samples, None, None, None, None, None,None, None, None, sample_tensor=torch.load(os.path.join(data_path,  args.dataset+ '.train.GLKS.dataset.pkl')))
 
     model = GLKS(args.min_window_size, args.num_windows, args.embedding_size, args.hidden_size, vocab2id, id2vocab, max_dec_len=args.max_target_length, beam_width=1, emb_matrix=None)
     init_params(model)
