@@ -1,0 +1,12 @@
+.idea
+.DS_Store
+node_modules/
+.project
+.vscode
+dist
+dist/*
+src/config/*.tmp
+src/config/env.js
+npm-debug.log
+__pycache__
+*.log
