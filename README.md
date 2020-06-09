@@ -51,6 +51,7 @@ MARCO_5941958	Lewis and Clark's expedition traveled more often by boat via river
 1_2	What are the educational requirements required to become a physician's assistant?
 ```
 ## 3. Run Prepare_dataset.py to process the data.
+After running the scripts, you should get 1) '.pkl' files corresponding to raw files; 2) '.dataset_name.train/dev/test.model_name.dataset.pkl' files for each model and each dataset.
  
 ## 4. Do training or inference: 
 + ./run.sh model_name train/test slurm_node data_path dataset_name
