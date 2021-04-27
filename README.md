@@ -1,5 +1,11 @@
-# CaSE-1.0
- Conversations with Search Engines
+This repo contains the code for the following paper:
+@article{ren2021conversations,\
+  title={Conversations with Search Engines: SERP-based Conversational Response Generation},\
+  author={Ren, Pengjie and Chen, Zhumin and Ren, Zhaochun and Kanoulas, Evangelos and Monz, Christof and de Rijke, Maarten},\
+  journal={ACM Transactions on Information Systems (TOIS)},\
+  year={2021},\
+publisher = {Association for Computing Machinery}\
+}
  
 ## 1. Config environment.
 + conda create --name python3.7 python=3.7
