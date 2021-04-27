@@ -1,4 +1,4 @@
-This repo contains the code for the following paper:
+## This repo contains the code for the following paper:
 @article{ren2021conversations,\
   title={Conversations with Search Engines: SERP-based Conversational Response Generation},\
   author={Ren, Pengjie and Chen, Zhumin and Ren, Zhaochun and Kanoulas, Evangelos and Monz, Christof and de Rijke, Maarten},\
